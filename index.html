@@ -1,0 +1,111 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Gokul_PORTFOLIO</title>
+        <link rel="icon" type="image/x-icon"  href="Images/G.png">
+    </head>
+    <body style="background-color:rgb(198, 240, 240);">
+        <h1 style="color: rgb(0, 0, 0);    font-family:t; text-align: left;">Hi I am <abbr title="Gokul Krishna">Gokul</abbr></h1> <!--Head line tags-->
+        <hr><!--hr is a self closing tag used for creating horizontal line--><!--Empty Elements in HTML-->
+        <!--The <img> tag in HTML is used to display images on a webpage.Self-closing tag (doesn't need a closing </img>)Requires at least the src and alt attributes-->
+        <!--In HTML, attributes are used to provide extra information about HTML elements. They modify the behavior or appearance of elements.-->
+        <img src="Images/gokul.jpg" width="300px" alt="This is an image of Gokul"
+        style="border: 3px solid black;"  
+        title="Gokul Krishna" id="img">
+
+        <br> <!--br is a self closing tag used to give space--> <!--Empty Elements in HTML-->
+        <!--b tag is used to bold the fonts  instead we can use strong also-->
+        <!--i tag is used for italics-->
+        <strong style="font-size: x-large;">I am a <q> <i>Software Developer</i></q></strong>  <!--P Tags used for writing the paragraph-->
+        <br>
+        <br>
+        <b>I love Web Development</b> <!--We have to create another p for writing in nextline because Html cant Display Spaces-->
+        <!--The <pre> tag in HTML stands for "preformatted text". It is used to display text exactly as it is written in the HTML file, preserving spaces, tabs, and line breaks.-->
+            <!--small tag is used to make the content small-->
+            <!--mark tag is used too highlight the content-->
+        <pre><b style="font-family: 'Times New Roman', Times, serif;">I love <i><mark>Python</mark></i> language because,
+it was my first language.</b></pre>
+        <div>
+         <h3><ins>My Notion Account</ins></h3>
+         <!--In HTML, the <a> tag is used to create hyperlinks, and the href attribute within it specifies the URL (link destination).The <a> stands for "anchor" href stands for "hypertext reference".-->
+        <a href="https://www.notion.so/Java-Complete-Roadmap-2038394443038057861df77dc2cda087" target="_blank">
+            <img src="Images/notion.png" height="15px">
+            Gokul.notion</a>
+        </div>
+          <a href="mailto:gokulkrishhh05@gmail.com" target="_blank">
+          <img src="Images/gmail.png" height="15px">Email me</a>
+          <div>
+        <h3><ins>My Bucket List</ins></h3>
+        <ol type="A">
+        <!--del tag used to mark completed task and ins tag used to insert a new task to complete and also it is used to underline contents.-->
+        <li><del>Finished College</del></li>
+        <li><del>Start to learn Coding</del> </li>
+        <li><ins>Work in an IT Company</ins>
+        <ul style="list-style: square;"> 
+        <li>Learn DSA</li> <!--Nested List-->
+        <li>Crack MNC</li>
+        <li>Settle With High Package</li>
+        <li>Lead healthy and happy life</li>
+        </ul>
+        </li>
+        </ol>
+        </div>
+        <!--(Note) sup tag used to include superlatives-->
+        <!--<p>a <sup>2</sup>+b <sup>2</sup>+2ab</p>-- it shows like this a 2+b 2+2ab(2 in power)>-->
+        <br>
+        <table width="300px" style="border: solid;">
+            <caption><u><b>My Pojects</b></u></caption>
+            <thead style="text-align: left;">
+                <tr>
+                <th colspan="2" width="40%" style="border: solid;"> <!--Setting width to the column-->Project Name</th><!--Colspan Attribute used here-->
+                <th style="border: solid;">Language</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 60px;"> <!--Setttig height to the rows-->
+                <td style="border: solid;">1</td>
+                <td style="border: solid;">Brute Force Checker</td>
+                <td style="border: solid;">Java</td> <!--<td rowspan="2">Java</td> is used to make java is used as common for two projects-->
+                </tr>
+                <tr>
+                    <td style="border: solid;">2</td>
+                    <td style="border: solid;">Nanoparticle Synthesis</td>
+                    <td style="border: solid;">Chemistry</td>
+                </tr>
+            </tbody>
+        </table>
+    <br>
+    <!--<iframe src="file:///C:/HTML%20Tutorial/h%20tags%20Practice.html"
+     frameborder="0"></iframe> iframe used for embedding other webapage into this webpage-->
+    <br>
+     <fieldset>
+        <legend style="text-align: center;">Sign Up</legend>
+    <form action="Index.html"> 
+        <label>Name</label>
+        <input type="text" minlength="5" required placeholder="First name">
+        <br><br>
+        <label>PassWord</label>
+        <input type="password" minlength="8" required>
+        <br><br>
+        <input type="date">
+        <br><br>
+        <b>Gender</b>
+        <br>
+        <label>Male</label>
+        <input type="radio" name="gender">
+        <label>Female</label>
+        <input type="radio" name="gender">
+        <br><br>
+        <input type="checkbox" name="Agree" required>
+        <label>Terms and Conditions</label>
+
+
+
+        <input type="submit">
+    </form>
+    </fieldset>
+
+    <a href="#img">Image</a>
+        
+    </body>
+</html>
